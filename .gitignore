@@ -34,3 +34,5 @@ github.txt
 # Never publish GitHub Actions
 .github/workflows/
 .github/workflows/**
+
+.github/README.md
