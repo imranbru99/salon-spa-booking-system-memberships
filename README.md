@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/screenshots/dashboard.svg" alt="Salon &amp; Spa Booking System dashboard preview" width="100%"/>
+  <img src="docs/screenshots/dashboard.svg" alt="Salon &amp; Spa Booking System preview" width="100%"/>
 </p>
 
-<h1 align="center">Salon & Spa Booking System</h1>
+# Salon & Spa Booking System
 
 <p align="center"><strong>Staff scheduling, packages, memberships and bookings</strong></p>
 
@@ -16,101 +16,69 @@
 
 ## Overview
 
-**Salon & Spa Booking System** is a complete business application focused on real operational workflows. This README lists the full feature surface so GitHub visitors and search engines can understand every capability of the product.
+**Salon & Spa Booking System** — Staff scheduling, packages, memberships and bookings.
 
-## Product preview
+This README documents the **real application features** so GitHub and Google visitors can understand what the product does.
+
+## Product screenshots
 
 | Dashboard | Operations |
 | :---: | :---: |
 | ![Dashboard](docs/screenshots/dashboard.svg) | ![Operations](docs/screenshots/operations.svg) |
 
-## Complete feature list
+## Application features
 
-### Product modules & capabilities
+### Salon & spa operations
 
-- Salon & Spa Booking System
-- DevOps Engineer
-- Payment Integration Engineer
-- AI Integration Engineer
-- Security Engineer
-- QA Automation Engineer
-- Point of Sale
-- Redis
-- Attendance hardware
-- Laravel Attendance Hub
-- Slug management
-- Module management requirements
-- Booking
+- Online and front-desk appointment booking
+- Staff calendar, skills and shift scheduling
+- Service catalog, packages and add-ons
+- Memberships and recurring billing
+- Customer profiles, preferences and visit history
+- POS / checkout and payment recording
+- Inventory of retail products and consumables
+- Marketing campaigns, reviews and reminders
+- Multi-branch salon management
+
+### Detailed modules from product specification
+
+- **Drutogoti — Application Performance**
+- **Laravel Admin Panel**
+- **Laravel AI Catalog**
+- **Laravel AI Hub**
+- **Laravel Attendance Hub**
+- **Laravel Unicode PDF**
+#### Laravel Universal Slug
+
+- MULTI-TENANT SAAS ARCHITECTURE
+- MULTIPLE USER TYPES AND PERMISSIONS
+- DYNAMIC MODULE MANAGEMENT SYSTEM
+- CORE BOOKING AND APPOINTMENT MANAGEMENT
+- SERVICE MANAGEMENT
+- STAFF AND EMPLOYEE MANAGEMENT
+- PACKAGES MANAGEMENT
+
+### Admin screens (Filament resources)
+
 - Appointment management
-- Online Booking
-- Public customer booking
-- Employee management
-- Attendance
-- Staff attendance
-- Shift management
-- Memberships
-- Recurring membership plans
-- Payments
-- Payment processing
-- Invoices
-- Gift card management
-- Inventory
-- Stock management
-- Suppliers
-- Supplier management
-- Purchase orders
-- Payroll management
-- Equipment management
-- Content management
-- AI Analytics
-- Intelligent analytics
-- Reports
-- Business reports
-- Booking channels
-- Booking process
-- Advanced availability engine
-- Service management features
-- Membership examples
-- Membership features
-- Membership billing
+- Branch management
+- Customer management
+- Invoice management
+- Membership Plan management
 - Product management
-- Inventory operations
-- Public booking functionality
-- AI Booking Assistant
-- Booking reports
-- Revenue reports
-- Staff reports
-- Customer reports
-- Inventory reports
-- Customer Portal
-- Module management
-- POS and payments
-- System
-- Branch Manager
-- Inventory Manager
+- Sale management
+- Service management
+- Service Package management
+- Staff Profile management
+- Subscription Plan management
+- Tenant management
 
-### Admin / Filament resources
-
-- Appointment
-- Branch
-- Customer
-- Invoice
-- Membership Plan
-- Product
-- Sale
-- Service Package
-- Service
-- Staff Profile
-- Subscription Plan
-- Tenant
-
-### Domain models
+### Domain data models
 
 - Ai Log
 - Appointment
 - Appointment Service
 - Audit Log
-- Belongs To Tenant
 - Blog Post
 - Booking Waitlist
 - Branch
@@ -156,89 +124,20 @@
 - Subscription Invoice
 - Subscription Plan
 - Supplier
-
-### HTTP / API controllers
-
-- Api APIs & screens
-- Customer Portal APIs & screens
-- Online Booking APIs & screens
-
-### Detailed feature requirements delivered
-
-- Project Name: Salon & Spa Booking System
-- Product Category: Enterprise Salon, Spa, Beauty & Wellness Management Platform
-- Primary Technology: PHP + Laravel + Filament
-- Architecture: Modular, Multi-Tenant SaaS
-- Development Goal: Production-ready, commercially deployable, extensible business management application.
-- PRODUCT VISION
-- TECHNOLOGY STACK
-- REQUIRED THIRD-PARTY PACKAGES
-- Important: Filament is the primary admin framework for this project. The supplied package describes itself as an alternative admin panel.
-- MULTI-TENANT SAAS ARCHITECTURE
-- MULTIPLE USER TYPES AND PERMISSIONS
-- DYNAMIC MODULE MANAGEMENT SYSTEM
-- CORE BOOKING AND APPOINTMENT MANAGEMENT
-- SERVICE MANAGEMENT
-- STAFF AND EMPLOYEE MANAGEMENT
-- PACKAGES MANAGEMENT
-- MEMBERSHIP MANAGEMENT
-- CUSTOMER RELATIONSHIP MANAGEMENT
-- POINT OF SALE (POS)
-- PAYMENT GATEWAY MANAGEMENT
-- INVENTORY AND PRODUCT MANAGEMENT
-- ROOMS AND EQUIPMENT MANAGEMENT
-- STAFF COMMISSION AND PAYROLL
-- ATTENDANCE AND HR
-- GIFT CARDS, COUPONS AND LOYALTY
-- MULTI-BRANCH MANAGEMENT
-- MARKETING AND CUSTOMER RETENTION
-- WEBSITE AND PUBLIC BOOKING PAGES
-- CUSTOMER PORTAL
-- AI-POWERED FEATURES
-- FINANCE AND ACCOUNTING
-- REPORTS AND ANALYTICS
-- NOTIFICATIONS AND AUTOMATION
-- Trigger: Appointment completed.
-- Condition: Customer has not booked another appointment within 30 days.
-- Action: Send an eligible rebooking reminder.
-- SAAS SUBSCRIPTION AND COMMERCIAL MANAGEMENT
-- ADVANCED INTEGRATIONS
-- FILAMENT ADMIN PANEL DESIGN
-- PREMIUM UI/UX DESIGN
-- DATABASE ARCHITECTURE
-- SECURITY REQUIREMENTS
-- MULTILINGUAL AND INTERNATIONAL SUPPORT
-- API DEVELOPMENT
-- DEMO USER AND DEMONSTRATION DATA
-- Business name: Glow & Grace Salon and Spa.
-- Business type: Premium Salon & Spa.
-- PUBLIC FEATURE DOCUMENTATION
-- README.MD — COMPLETE PROJECT DOCUMENTATION
-- TESTING REQUIREMENTS
-- PERFORMANCE AND SCALABILITY
-- DEPLOYMENT AND PRODUCTION READINESS
-- DEVELOPMENT EXECUTION PLAN
-- DEVELOPMENT RULES — STRICT
-- FINAL ACCEPTANCE CRITERIA
-- FINAL INSTRUCTION TO THE AI CODING AGENT
-- Most importantly: Build the complete application, not just its appearance.
-
-### Platform capabilities
-
-- Multi-role ready structure for operators, managers and admins
-- Database migrations and seeders for demo-ready local setup
-- Laravel architecture with services/controllers/models separation
-- Responsive UI foundation (Blade / Filament where enabled)
-- Environment-based config for local and production databases
-- GitHub-ready documentation with visual product previews
+- Tenant
+- Tenant Domain
+- Tenant Module
+- Tenant Subscription
+- Treatment Room
+- Website Page
 
 ## Tech stack
 
 - PHP 8.2+ / Laravel
-- Filament admin resources (where enabled)
+- Filament admin (where enabled)
+- Migrations, seeders, queues
 - Vite asset pipeline
-- SQLite/MySQL-ready database layer
-- Migrations, seeders, and test-ready structure
+- MySQL / SQLite ready
 
 ## Quick start
 
@@ -253,27 +152,22 @@ npm install && npm run build
 php artisan serve
 ```
 
-## Repository
+## Author
 
-- GitHub: https://github.com/imranbru99/salon-spa-booking-system-memberships
-- Developer: **Imran Ahmed** · https://imrandev.bd
+**Imran Ahmed** · https://imrandev.bd · me@imrandev.bd  
+GitHub: https://github.com/imranbru99/salon-spa-booking-system-memberships
 
 ---
-
 ## 🤝 Let's Connect & Collaborate
 
 I am open to **Senior Remote Full-Stack Roles**, AI Platform Architecture Contracts, and Enterprise Technical Advisory.
 
-**Timezone:** UTC+6 (Dhaka / Rangpur, Bangladesh) — flexible overlap with US, UK & EU hours.  
-**Delivery:** Async-ready · Slack · Discord · Jira · GitHub · production-first accountability.
+| Channel | Link |
+| :--- | :--- |
+| Portfolio | https://imrandev.bd |
+| GitHub | https://github.com/imranbru99 |
+| LinkedIn | https://linkedin.com/in/imranbru99 |
+| Email | me@imrandev.bd |
+| WhatsApp | https://wa.me/8801576918420 |
+| Packagist | https://packagist.org/packages/imrandevbd/ |
 
-| Channel | Handle | Link |
-| :--- | :--- | :--- |
-| Portfolio | imrandev.bd | https://imrandev.bd |
-| Packagist | imrandevbd | https://packagist.org/packages/imrandevbd/ |
-| LinkedIn | imranbru99 | https://linkedin.com/in/imranbru99 |
-| GitHub | imranbru99 | https://github.com/imranbru99 |
-| WhatsApp | +880 1576-918420 | https://wa.me/8801576918420 |
-| Email | me@imrandev.bd | mailto:me@imrandev.bd |
-| X | @imrandev_bd | https://x.com/imrandev_bd |
-| YouTube | @ImranDevBD | https://youtube.com/@ImranDevBD |
